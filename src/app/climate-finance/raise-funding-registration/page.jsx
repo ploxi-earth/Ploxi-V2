@@ -103,7 +103,7 @@ export default function RaiseFundingRegistration() {
       
       // Redirect to success page
       setTimeout(() => {
-        router.push('/climate-finance/raise-funding/success');
+        router.push('/climate-finance/raise-funding-registration/success');
       }, 500);
 
     } catch (error) {

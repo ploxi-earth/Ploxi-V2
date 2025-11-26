@@ -113,7 +113,7 @@ export default function ParticipantRegistration() {
       
       // Redirect to success page
       setTimeout(() => {
-        router.push('/climate-finance/participant/success');
+        router.push('/climate-finance/participant-registration/success');
       }, 500);
 
     } catch (error) {
@@ -250,7 +250,7 @@ export default function ParticipantRegistration() {
           </button>
         </form>
       </div>
-
+                              
       {/* OTP Modal */}
       <OTPModal
         isOpen={showOTPModal}
